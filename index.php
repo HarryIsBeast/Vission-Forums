@@ -29,15 +29,20 @@
       </div>
     </section>
     
-    <section id="login">
+    <section id="auth">
       <h1>Login</h1>
-      <form action="login.php" type="POST">
-        Username: <input type="text"> <br>
-        Password: <input type="password"> <br>
+      <form action="login.php" method="POST">
+        Username: <input type="text" name="uid"> <br>
+        Password: <input type="password" name="pwd"> <br>
         <button type="submit">Login</button>
-      </form>
-      <form action="register.php">
-        
+      </form> 
+      <h1>Register</h1>
+      <form action="register.php" method="posts">
+        Username: <input type="text"> <br>
+        Email: <input type="email"> <br>
+        Password: <input type="password"> <br>
+        Repeat Password: <input type="password"> <br>
+        <button type="submit">Login</button>
       </form>
     </section>
   </body>
