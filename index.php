@@ -10,7 +10,7 @@
     <header>
       <div class="container">
         <div id="logo">
-          <h1>Vission Roleplay</h1>
+          <h1 id="title">Vission Roleplay</h1>
         </div>
         <nav>
           <ul>
@@ -37,11 +37,11 @@
         <button type="submit">Login</button>
       </form> 
       <h1>Register</h1>
-      <form action="register.php" method="posts">
-        Username: <input type="text"> <br>
-        Email: <input type="email"> <br>
-        Password: <input type="password"> <br>
-        Repeat Password: <input type="password"> <br>
+      <form action="register.php" method="POST">
+        Username: <input type="text" name="uid"> <br>
+        Email: <input type="email" name="email"> <br>
+        Password: <input type="password" name="pwd"> <br>
+        Repeat Password: <input type="password" name="pwd2"> <br>
         <button type="submit">Login</button>
       </form>
     </section>

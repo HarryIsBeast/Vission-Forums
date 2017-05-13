@@ -15,9 +15,5 @@
 
   $password = password_hash($password, PASSWORD_DEFAULT);
   
-  echo 'unhashed: ';
-  echo $_POST['pwd'];
-  echo '<br>';
-  echo 'hashed: ';
-  echo $password;
+  
 ?>
